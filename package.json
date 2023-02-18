@@ -1,8 +1,27 @@
 {
+  "name": "techlabb-backend",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pheany/TechLabb-backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pheany/TechLabb-backend/issues"
+  },
+  "homepage": "https://github.com/pheany/TechLabb-backend#readme",
+  "description": "",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
+    "helmet": "^6.0.1",
     "jsonwebtoken": "^9.0.0",
     "mongoose": "^6.9.2",
     "morgan": "^1.10.0",
